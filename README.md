@@ -1,16 +1,16 @@
 # Втора лабораториска вежба по Софтверско инженерство
-# Ангел Царчев, бр. на индекс 213156
+## Ангел Царчев, бр. на индекс 213156
 
-# Control Flow Graf
+### Control Flow Graf
 
 ![SI_Lab2_2023 drawio](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/SI_Lab2_2023.drawio.jpg)
 
 
-# Цикломатска комплексност
+### Цикломатска комплексност
 
 Цикломатската комплексност на овој код е 11, истата ја добив преку формулата со која се бројат регионите во control flow graf-от вкупно има 11 региони и затоа заклучуваме дека цикломатската комплексност е 11.
 
-# Тест случаи според Every Branch:
+### Тест случаи според Every Branch:
 
 ![Screenshot_1](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_1.png)
 
@@ -37,7 +37,7 @@
 
 ![Screenshot_6](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_6.png)
 
-# Multiple Condition
+### Multiple Condition
 
 ![Screenshot_1](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_11.png)
 
