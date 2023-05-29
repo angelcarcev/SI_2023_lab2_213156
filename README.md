@@ -13,47 +13,63 @@
 
 ### Тест случаи според Every Branch:
 
-![Screenshot_1](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_1.png)
+
+![Screenshot_1](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/3ea50e6e-2c22-4ffa-8eeb-ab4eb8d8c0ed)
+
 
 
 На сликата е прикажана табела, со чија помош се претставени тестовите и гранките кои се изминати. (белата боја означува дека гранката не е измината, а ѕвездата означува дека гранката е измината со соодветниот тест).
 
 Со "test1" се изминуваат само 2 гранки односно 1-2 и поради тоа што се фрла искучок во јазол 2, тука функцијата завршува, што значи има потреба за нов тест случај.
 
-![Screenshot_2](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_2.png)
+
+![Screenshot_2](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/e2e03db7-c596-49f4-ac5c-5b8ad0e03146)
+
 
 Со "test2" се изминуваат јазлите 1-3, 3-4, 4-5, 5-6, 6-7, 7-8.1, 8.1-8.2, 8.2-9, 8.3-8.2, 8.2-(14-15-16-17), 9-10, 10-11, 11-12, 12-13, 13-8.3, (14-15-16-17)-18, 18-25, со ова се поминуваат доста јазли но потребни се повеќе тест случаи да се поминат сите тестови. 
 
-![Screenshot_3](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_3.png)
+![Screenshot_3](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/42b8f544-2518-4c62-965f-3081ae3bea25)
+
+
 
 Со "test3" се изминуваат дополнително се изминуваат и 3-5, 6-(14-15-16-17) , (14-15-16-17)-19, 19-20, 20-21.1, 21.1-21.2, 21.2-22, 21.2-24, 22-21.3, 21.3-21.2, 24-25, но треба уште тест случаеви за да се поминат преостанатите јазли.
 
-![Screenshot_4](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_4.png)
+
+![Screenshot_4](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/767e62a1-74de-4e39-8a9a-6d255ac8ee57)
+
 
 Со "test4" се изминуваат 10-12, (14-15-16-17)-19, 12-8.3, 22-23, 23-25, но само јазелот 20-24 останува непоминат и затоа во следниот тест случај ке го поминеме и него.
 
-![Screenshot_5](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_5.png)
+
+![Screenshot_5](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/e1f54341-df39-4729-8139-e68a2a28eec1)
+
 
 Со "test5" го изминуваме последниот јазел 20-24.
 
-![Screenshot_6](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_6.png)
+![Screenshot_6](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/1098ddf6-3a21-4106-a9a1-0420a020c4ad)
+
 
 ### Multiple Condition
 
-![Screenshot_1](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_11.png)
+![Screenshot_11](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/492fed19-ea87-4418-9b58-ac250f37f13e)
+
 
 1. user==null враќа T, што значи дека останатите нема потреба да се проверуваат. (условот е исполнет, 1-2)
 
-![Screenshot_7](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_7.png)
+![Screenshot_7](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/f33e6845-fd8b-4557-a38c-b22e5acf7615)
+
 
 2. user==null враќа F , се проверува user.getPassword()==null, што со дадениот тест ќе врати T, и наредниот израз нема потреба да се проверува. (условот е исполнет, 1-2)
 
-![Screenshot_8](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_8.png)
+![Screenshot_8](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/66f75584-56ea-44e3-b4fb-00a7b2585927)
+
 
 3. user==null и user.getPassword()==null враќаат F, па сега се проверува user.getEmail()==null, што со дадениот тест ќе врати T, дополнителни изрази нема за проверување, што значи условот е исполнет. (1-2)
 
-![Screenshot_9](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_9.png)
+![Screenshot_9](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/482d8e83-4bbf-46fa-80ba-5d9cc2c301cf)
+
 
 5. доколку сите вратат F условот не е исполнет и јазолот 2 се прескокнува. (1-3)
 
-![Screenshot_10](https://github.com/angelcarcev/SI_2023_lab2_213156/blob/master/sliki/Screenshot_10.png)
+![Screenshot_10](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/81655817-a928-4c52-9bdd-6b7ddb124227)
+
