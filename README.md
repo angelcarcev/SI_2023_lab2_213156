@@ -2,7 +2,7 @@
 
 # Control Flow Graf
 
-![SI_Lab2_2023 drawio](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/c30e2689-d10b-4521-a7ad-a01dbe64cd1d)
+![SI_Lab2_2023 drawio](sliki/SI_Lab2_2023.drawio)
 
 
 # Цикломатска комплексност
