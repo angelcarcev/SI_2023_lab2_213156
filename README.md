@@ -1,7 +1,7 @@
 # Втора лабораториска вежба по Софтверско инженерство
 ## Ангел Царчев, бр. на индекс 213156
 
-### Control Flow Graf
+### Control Flow Graph:
 
 
 ![SI_Lab2_2023 drawio](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/67c98bf8-03d8-4174-9cff-c3ca0316c00e)
@@ -49,7 +49,7 @@
 ![Screenshot_6](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/1098ddf6-3a21-4106-a9a1-0420a020c4ad)
 
 
-### Multiple Condition
+### Тест случаи според Multiple Condition:
 
 ![Screenshot_11](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/492fed19-ea87-4418-9b58-ac250f37f13e)
 
@@ -69,7 +69,7 @@
 ![Screenshot_9](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/482d8e83-4bbf-46fa-80ba-5d9cc2c301cf)
 
 
-5. доколку сите вратат F условот не е исполнет и јазолот 2 се прескокнува. (1-3)
+4. доколку сите вратат F условот не е исполнет и јазолот 2 се прескокнува. (1-3)
 
 ![Screenshot_10](https://github.com/angelcarcev/SI_2023_lab2_213156/assets/127151007/81655817-a928-4c52-9bdd-6b7ddb124227)
 
